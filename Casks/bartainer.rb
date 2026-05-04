@@ -1,6 +1,6 @@
 cask "bartainer" do
   version "0.2.3"
-  sha256 "2a80ac5ec6df71b2900f22a215ceae4300f41489ceee70b0475feb32d6dc92bb"
+  sha256 "7dc667b4f7e104274a547ee2cacaac03eee456801771b71fa8d01712cff90527"
 
   url "https://github.com/cobanov/bartainer/releases/download/v#{version}/Bartainer-#{version}-macos.zip",
       verified: "github.com/cobanov/bartainer/"
