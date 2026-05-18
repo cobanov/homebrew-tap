@@ -1,6 +1,6 @@
 cask "autocut" do
-  version "0.3.0"
-  sha256 "75e137da77f5eb1968a6df1fd660e3df93332cf6d64c35ffacc7ff6859ed998d"
+  version "0.3.1"
+  sha256 "36d040c77da3668485d0a6005240fdd92c85159ddbd143c107f8b7a1b23907f3"
 
   url "https://github.com/cobanov/autocut/releases/download/v#{version}/autocut_#{version}_aarch64.dmg"
   name "autocut"
