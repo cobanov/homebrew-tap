@@ -8,7 +8,7 @@ cask "autocut" do
   homepage "https://github.com/cobanov/autocut"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "autocut.app"
 
