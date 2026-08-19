@@ -8,7 +8,7 @@ cask "bartainer" do
   desc "macOS menu bar for local and remote Docker containers"
   homepage "https://github.com/cobanov/homebrew-tap"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Bartainer.app"
 
