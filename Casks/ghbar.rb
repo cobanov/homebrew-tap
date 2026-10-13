@@ -1,6 +1,6 @@
 cask "ghbar" do
-  version "0.1.1"
-  sha256 "31a29330e253d202470d4af133255bffdfa7d1f35d619f2c9d8c33a480f55d43"
+  version "0.3.3"
+  sha256 "d55ceaf19ea0cee26160fb21efdc1afe8d2c877d1bddf420479e2cb4a13dbbb7"
 
   url "https://github.com/cobanov/ghbar/releases/download/v#{version}/GHBar-#{version}-macos.zip"
   name "GHBar"
