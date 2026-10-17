@@ -1,6 +1,6 @@
 <p align="center">
   <strong>cobanov/tap</strong><br>
-  Homebrew casks for the macOS apps in this account.
+  Homebrew casks and formulae for the macOS apps in this account.
 </p>
 
 <p align="center">
@@ -38,6 +38,17 @@ brew install --cask cobanov/tap/ghbar
 brew install --cask cobanov/tap/ghbar
 brew install --cask cobanov/tap/bartainer
 brew install --cask cobanov/tap/autocut
+```
+
+One formula, for a command-line agent rather than an app:
+
+| Formula | What it is | macOS |
+|---|---|---|
+| [`kota`](https://github.com/cobanov/kota) | Background agent that pushes your Claude plan usage to a Flipper Zero over Bluetooth | Ventura or newer |
+
+```sh
+brew install cobanov/tap/kota
+brew services start kota
 ```
 
 `autocut` is `depends_on arch: :arm64`. It ships a VAD model and is not built for
