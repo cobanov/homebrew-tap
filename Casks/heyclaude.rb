@@ -1,6 +1,6 @@
 cask "heyclaude" do
-  version "0.2.0"
-  sha256 "537668abdbbe0aafe37f2f0895415caf21ced2d85668bc3a5e5220288e9f0f40"
+  version "0.2.1"
+  sha256 "39365342fb25913dacdab4a77a547cc5417969c580d99297a15c076b42a6f805"
 
   url "https://heyclaude.cobanov.dev/downloads/HeyClaude-#{version}.dmg"
   name "HeyClaude"
