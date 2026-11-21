@@ -33,11 +33,13 @@ brew install --cask cobanov/tap/ghbar
 | [`ghbar`](https://ghbar.cobanov.dev) | Pull requests and issues from your repositories, in the menu bar | Sonoma or newer |
 | [`bartainer`](https://github.com/cobanov/homebrew-tap) | Local and remote Docker containers, in the menu bar | Ventura or newer |
 | [`autocut`](https://github.com/cobanov/autocut) | Drop a video in, the silences come out | Sonoma or newer, Apple silicon |
+| [`heyclaude`](https://heyclaude.cobanov.dev) | Say “Hey Claude” and talk to Claude Code from the notch (paid, 7-day trial) | Tahoe or newer |
 
 ```sh
 brew install --cask cobanov/tap/ghbar
 brew install --cask cobanov/tap/bartainer
 brew install --cask cobanov/tap/autocut
+brew install --cask cobanov/tap/heyclaude
 ```
 
 One formula, for a command-line agent rather than an app:
@@ -65,7 +67,7 @@ caches and application support directories with it rather than leaving them behi
 ## Where the binaries come from
 
 `ghbar` and `autocut` download from their own repositories' releases, which is the
-ordinary arrangement.
+ordinary arrangement. `heyclaude` downloads from its website, which is also its `homepage`.
 
 `bartainer` is the exception: its source is not public, so the build is attached to a
 release on this repository instead. That makes the download host and the cask's
