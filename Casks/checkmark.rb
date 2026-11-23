@@ -12,7 +12,7 @@ cask "checkmark" do
   app "checkmark.app"
 
   zap trash: [
-    "~/Library/Containers/dev.cobanov.checkmark",
     "~/Library/Application Scripts/dev.cobanov.checkmark",
+    "~/Library/Containers/dev.cobanov.checkmark",
   ]
 end
